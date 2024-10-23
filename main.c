@@ -43,6 +43,7 @@ int main()
     FILE *file;
     char name[100];
     file = fopen("data.txt","a");
+
     if(file != NULL)
     {
         int a,option, p;
@@ -226,7 +227,7 @@ void title(char* title)
     system("color E0");
     printf("\n\n");
     printf("\n\t\t\t\t\t\t %C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C",t,t1,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t1,t);
-    printf("\n\t\t\t\t\t\t %C%C%C %23.23s %C%C%C%",t4,t3,t4,title,t4,t3,t4);
+    printf("\n\t\t\t\t\t\t %C%C%C %23.23s %C%C%C",t4,t3,t4,title,t4,t3,t4);
     printf("\n\t\t\t\t\t\t %C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C%C",t,t2,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t2,t);
     printf("");
     printf("");
