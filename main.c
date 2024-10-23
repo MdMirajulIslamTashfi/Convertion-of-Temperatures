@@ -42,9 +42,7 @@ int main()
     choice=0; // initializing choice as zero, every time main() function called it should be zero. [otherwise, 2nd time repeat run any kind input will take at the last input]
     FILE *file;
     char name[100];
-
     file = fopen("data.txt","a");
-
     if(file != NULL)
     {
         int a,option, p;
